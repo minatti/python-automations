@@ -11,11 +11,11 @@ def send_mail():
 
     mail_user = os.getenv('MAIL_USER')
     mail_pwd = os.getenv('MAIL_PWD')
-    mail_to = 'luancarminatt@gmail.com'
+    mail_dest =os.getenv('MAIL_DEST')
 
     email_smtp_server = 'smtp.gmail.com'
 
-    destination = ['luancarminatt@gmail.com']
+    destination = ['MAIL_DEST']
 
     subject = "Teste Bot Python"
 
