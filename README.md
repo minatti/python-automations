@@ -1,4 +1,4 @@
-@ Automações com Python @
+Automacoes com Python 
 
 DOTENV (não exponha senhas de API, DB, e outras informações sensíveis no seu código)
 
@@ -22,5 +22,4 @@ Abaixo site da documentação oficial para implentar a boa prática
 https://pypi.org/project/python-dotenv/
 
 Seguido da boa prática segue um exemplo básico para enviar e-mail,
-aos poucos implementaremos outras versões, lembre-se iniciar é dar os primeiros passos,
-mesmo que eles sejam pequenos!
+aos poucos implementaremos outras versões...
