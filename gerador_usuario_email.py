@@ -1,7 +1,6 @@
 import random
 import unicodedata
 
-
 qtd = 8
 qtd_numero = 4
 seq = 0
@@ -20,8 +19,8 @@ Sorria muito hoje, pois seu sorriso aquece corações como mais nada neste mundo
 def removendoAcentos(texto):
     texto_normalize = unicodedata.normalize("NFD", texto)
     texto_normalize = texto_normalize.encode("ascii", "ignore")
-    formatado = texto_normalize.decode("utf-8")
-    return formatado
+    texto_formatado = texto_normalize.decode("utf-8")
+    return texto_formatado
 
 
 def lista_txt(texto):
