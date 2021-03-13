@@ -16,7 +16,6 @@ E você sabe como é especial para mim, muito especial, e de como eu gostaria de
 Mas a vida é mesmo assim, e nem sempre o que queremos se torna realidade. Mas espero que seus desejos se realizem, que a você a vida faça a vontade, pois pessoas especiais como você, merecem o que de melhor existe.
 
 Sorria muito hoje, pois seu sorriso aquece corações como mais nada neste mundo consegue. E seja muito feliz, não só hoje, mas sempre e para sempre!'''
-texto2 = "LUAN NOOB APELO"
 
 def removendoAcentos(texto):
     texto_normalize = unicodedata.normalize("NFD", texto)
