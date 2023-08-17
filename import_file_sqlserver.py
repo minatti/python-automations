@@ -27,7 +27,7 @@ def import_file():
                 exit()
             else:    
                 #print(rows[0].value, rows[1].value, rows[2].value, rows[3].value)
-                cursor.execute("insert into BI_MO(nome, idade) values (?, ?)", rows[0].value, rows[1].value)
+                cursor.execute("insert into pessoa(nome, idade) values (?, ?)", rows[0].value, rows[1].value)
                 connection.commit()
             
 
