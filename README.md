@@ -1,7 +1,10 @@
 
 Automacoes com Python 02/03/2021
 
-# Projeto: Dashboard Interativo de Controle de Despesas - **`pipeline_despesas.py`
+# Projeto: Dashboard Interativo de Controle de Despesas 
+
+
+Script disponível no arquivo: **`pipeline_despesas.py`
 
 Este projeto tem como objetivo principal transformar dados brutos de um Google Sheet de controle de despesas em insights financeiros acionáveis, utilizando Python e Streamlit para criar um dashboard interativo e automatizado.
 
