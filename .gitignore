@@ -1,0 +1,17 @@
+# Credenciais do Google Cloud - MUITO IMPORTANTE!
+# Este arquivo contem informacoes sensiveis e NAO deve ser versionado.
+credenciais_google.json
+
+# Ambientes virtuais Python
+# Ignora a pasta do ambiente virtual criada pelo venv ou virtualenv
+venv/
+.venv/
+.env/
+
+# Arquivos de bytecode Python
+*.pyc
+__pycache__/
+
+# Arquivos de log e temporarios
+*.log
+*.tmp
